@@ -84,7 +84,7 @@ if __name__ == '__main__':
     try:
         n_cpfs = input('Quantas pessoas vc deseja roubar? (numero de cpfs) ')
         for i in xrange(n_cpfs):
-            print cpf()
+            print cpf();
             if DEBUG:
                 print
     except ValueError, x:
