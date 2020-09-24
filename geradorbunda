@@ -76,8 +76,6 @@ def cpf():
 
 if __name__ == '__main__':
 
-    message = "EUcomeTUaBUNDA - Bunda gerador de CPF's by LeDD"
-    print '\t%s\n' % message, '\t%s\n' % ('=' * len(message))
 
     user_response = raw_input('ativar debug? ')
     if user_response.lower().strip() == "sim":
